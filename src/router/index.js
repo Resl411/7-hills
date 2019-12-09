@@ -6,7 +6,6 @@ import home from '../views/Home.vue'
 import tours from '../views/Tours.vue'
 import arrived from '../views/Arrived.vue'
 import stats from '../views/Stats'
-import quiz from '../views/Quiz'
 import about from '../views/About'
 import detailstour from '../views/DetailsTour.vue'
 
@@ -40,11 +39,6 @@ const routes = [
     path: '/stats',
     name: 'stats',
     component: stats
-  },
-  {
-    path: '/quiz',
-    name: 'quiz',
-    component: quiz
   },
   {
     path: '/aboutus',
